@@ -4,7 +4,7 @@ Authors: Jan Cvrček, Jan Stuchlík
 ## Aim of the project
 The aim of our project is to analyze various data about teams and players in the Czech Football Fortuna League, visualize the outputs of the analysis and predict results of future matches based on historical data, all using Python. Our data was obtained from https://fbref.com/en/comps/66/Czech-First-League-Stats. The process of obtaining the data as well as the analysis is described by the following diagram.
 
-![Flowchart](https://user-images.githubusercontent.com/72010018/103462105-4e6ea400-4d23-11eb-93f5-f485b19350c8.png)
+![Flowcahrt](https://user-images.githubusercontent.com/72010018/106131351-dd27e280-6162-11eb-9359-ede9e7b28116.jpg)
 
 ## Description of all steps:
 1. We scraped the website above to get dataframes with statistics on players, teams, and scores. The code and outputs for this part of the project can be found in these files: Players_Stats_Scraper.ipynb, Teams_Table&Scores_Scraper.ipynb.
