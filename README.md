@@ -11,6 +11,8 @@ The aim of our project is to analyze various data about teams and players in the
 
 2. The data was cleaned so that we could use it for meaningful computations. Data cleaning and analysis with comments can be found in these files: Players_Cleaning&Analysis.ipynb, Teams_Cleaning&Analysis.ipynb. The nice dataframes were written into csv files to be accessible in other notebooks. They are available in these files: Final_Player_Stats.csv, scores_clean.csv.
 
-3. Statistics on players and teams are being analyzed. We visualize the results in tables and graphs.
+3. We analyzed statistics on players and teams, and visualized the results in tables and graphs.
 
-4. We plan on writing a function that will predict the results of future games based on historical data (head-to-head games, current form, league table rank, home/away etc.).
+4. We wrote a function that predicts the results of future games based on historical data (head-to-head games, current form, league table rank, home/away team). The function and predictions can be found in Predict_function.ipynb.
+
+5. We also scraped data about players' market values (from https://www.transfermarkt.com/ in Market Values.ipynb) and nations' ranking (from https://www.fifa.com/fifa-world-ranking/ranking-table/men/). We merged the data with players' statistics and ran a linear regression to estimate the effect of different players' characteristics on their market value. The regression with preparation and results can be found in Merging and OLS.ipynb.
